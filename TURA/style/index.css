@@ -177,7 +177,7 @@ header .logo {
 /* hero banner css */
 
 .hero {
-    height: 100vh;
+    height: 70vh;
     background-color: #232526;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #414345, #232526);
@@ -487,10 +487,8 @@ header .logo {
     border: 2px red;
     display: flex;
     padding: 10px;
-    /* padding-top: 90px; */
     flex-wrap: wrap;
     color: #afafaf;
-    /* max-width: 1200px; */
     justify-content: center;
 }
 
@@ -517,10 +515,28 @@ header .logo {
 
 @media (min-width:786px) {
     .contact-info {
-        flex-basis: 50%;
+        flex-basis: 40%;
     }
     .contact-form-container {
-        flex-basis: 50%;
+        flex-basis: 40%;
+        padding: 0px;
+        margin: 0;
+        width: max-content;
+    }
+    .contact-form {
+        justify-content: center;
+        padding: 10px 10px;
+        text-align: center;
+        border: none;
+        display: block;
+        margin: 0%;
+    }
+    input {
+        max-width: 600px;
+        width: 400px;
+    }
+    .hero {
+        height: 100vh;
     }
 }
 
@@ -535,6 +551,7 @@ footer p {
 }
 
 .contact-form-container {
+    justify-content: center;
     box-shadow: rgba(26, 25, 25, 0.534) -5px 0 10px 0px;
 }
 
@@ -543,10 +560,10 @@ input:focus {
 }
 
 .contact-form {
-    padding: 10px 50px;
+    justify-content: center;
+    padding: 0px;
     text-align: center;
     border: none;
-    display: block;
 }
 
 input {
@@ -555,7 +572,7 @@ input {
     padding-top: 20px;
     padding-bottom: 10px;
     max-width: 400px;
-    width: 300px;
+    width: 200px;
     background: none;
     color: #afafaf;
     font-size: large;
