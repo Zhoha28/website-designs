@@ -22,6 +22,17 @@ body {
     overflow-x: hidden;
 }
 
+::selection {
+    background: #ddd;
+    color: #292929;
+}
+
+a {
+    color: #afafaf;
+    border: none;
+    text-decoration: none;
+}
+
 
 /* header */
 
@@ -457,7 +468,7 @@ header .logo {
 }
 
 .project-info {
-    padding: 2em;
+    padding: 4em;
     text-align: center;
     justify-content: center;
 }
@@ -483,7 +494,6 @@ header .logo {
     background: linear-gradient(to left, #414345, #232526);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-attachment: fixed;
-    border: 2px red;
     display: flex;
     padding: 10px;
     flex-wrap: wrap;
